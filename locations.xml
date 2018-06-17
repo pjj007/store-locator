@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stores>
+  <store>
+    <Name>Hurstville Store</Name>
+    <Suburb>Hurstville</Suburb>
+    <Lat>-33.975869</Lat>
+    <Lon>151.088939</Lon>
+  </store>
+  <store>
+    <Name>Sydney Centre</Name>
+    <Suburb>Sydney</Suburb>
+    <Lat>-33.867139</Lat>
+    <Lon>151.207114</Lon>
+  </store>
+  <store>
+    <Name>Auburn Store</Name>
+    <Suburb>Auburn</Suburb>
+    <Lat>-33.849322</Lat>
+    <Lon>151.033421</Lon>
+  </store>
+  <store>
+    <Name>Riverwood Store</Name>
+    <Suburb>Riverwood</Suburb>
+    <Lat>-33.949859</Lat>
+    <Lon>151.052469</Lon>
+  </store>
+  <store>
+    <Name>Fingal Bay Chain</Name>
+    <Suburb>Fingal Bay</Suburb>
+    <Lat>-32.748113</Lat>
+    <Lon>152.170141</Lon>
+  </store>
+  <store>
+    <Name>Harrington Store</Name>
+    <Suburb>Harrington</Suburb>
+    <Lat>-31.872153</Lat>
+    <Lon>152.689811</Lon>
+  </store>
+  <store>
+    <Name>Back Forest Store</Name>
+    <Suburb>Back Forest</Suburb>
+    <Lat>-34.853655</Lat>
+    <Lon>150.678507</Lon>
+  </store>
+  <store>
+    <Name>Jindabyne Chain</Name>
+    <Suburb>Jindabyne</Suburb>
+    <Lat>-36.415074</Lat>
+    <Lon>148.618871</Lon>
+  </store>
+  <store>
+    <Name>Benolong Store</Name>
+    <Suburb>Benolong</Suburb>
+    <Lat>-32.413736</Lat>
+    <Lon>148.63938</Lon>
+  </store>
+  <store>
+    <Name>Melbourne Centre</Name>
+    <Suburb>Melbourne</Suburb>
+    <Lat>-37.814563</Lat>
+    <Lon>144.970267</Lon>
+  </store>
+  <store>
+    <Name>Preston Store</Name>
+    <Suburb>Preston</Suburb>
+    <Lat>-37.738736</Lat>
+    <Lon>145.000515</Lon>
+  </store>
+  <store>
+    <Name>Petticoat Creek Store</Name>
+    <Suburb>Petticoat Creek</Suburb>
+    <Lat>-38.718949</Lat>
+    <Lon>143.725959</Lon>
+  </store>
+  <store>
+    <Name>Douglas Chain</Name>
+    <Suburb>Douglas</Suburb>
+    <Lat>-37.842988</Lat>
+    <Lon>144.892631</Lon>
+  </store>
+  <store>
+    <Name>Mildura Store</Name>
+    <Suburb>Mildura</Suburb>
+    <Lat>-34.181714</Lat>
+    <Lon>142.163072</Lon>
+  </store>
+  <store>
+    <Name>Broadford Store</Name>
+    <Suburb>Broadford</Suburb>
+    <Lat>-37.203001</Lat>
+    <Lon>145.050171</Lon>
+  </store>
+  <store>
+    <Name>Officer Chain</Name>
+    <Suburb>Officer</Suburb>
+    <Lat>-38.063056</Lat>
+    <Lon>145.40958</Lon>
+  </store>
+  <store>
+    <Name>Nowa Nowa Store</Name>
+    <Suburb>Nowa Nowa</Suburb>
+    <Lat>-37.733238</Lat>
+    <Lon>148.089423</Lon>
+  </store>
+  <store>
+    <Name>Langsborough Store</Name>
+    <Suburb>Langsborough</Suburb>
+    <Lat>-38.651487</Lat>
+    <Lon>146.675098</Lon>
+  </store>
+  <store>
+    <Name>Brisbane Centre</Name>
+    <Suburb>Brisbane</Suburb>
+    <Lat>-27.46758</Lat>
+    <Lon>153.027892</Lon>
+  </store>
+  <store>
+    <Name>Robertson Store</Name>
+    <Suburb>Robertson</Suburb>
+    <Lat>-27.565733</Lat>
+    <Lon>153.057213</Lon>
+  </store>
+  <store>
+    <Name>Logan Village Chain</Name>
+    <Suburb>Logan Village</Suburb>
+    <Lat>-27.767054</Lat>
+    <Lon>153.116881</Lon>
+  </store>
+  <store>
+    <Name>Ipswich Store</Name>
+    <Suburb>Ipswich</Suburb>
+    <Lat>-27.614604</Lat>
+    <Lon>152.760876</Lon>
+  </store>
+  <store>
+    <Name>Cattle Creek Store</Name>
+    <Suburb>Cattle Creek</Suburb>
+    <Lat>-27.6483</Lat>
+    <Lon>150.836678</Lon>
+  </store>
+  <store>
+    <Name>Caboolture Store</Name>
+    <Suburb>Caboolture</Suburb>
+    <Lat>-27.085007</Lat>
+    <Lon>152.951707</Lon>
+  </store>
+  <store>
+    <Name>Booie Store</Name>
+    <Suburb>Booie</Suburb>
+    <Lat>-26.498426</Lat>
+    <Lon>151.935421</Lon>
+  </store>
+  <store>
+    <Name>Rockhampton Store</Name>
+    <Suburb>Rockhampton</Suburb>
+    <Lat>-23.378941</Lat>
+    <Lon>150.512323</Lon>
+  </store>
+  <store>
+    <Name>Townsville Chain</Name>
+    <Suburb>Townsville</Suburb>
+    <Lat>-19.267358</Lat>
+    <Lon>146.80654</Lon>
+  </store>
+  <store>
+    <Name>Cairns Store</Name>
+    <Suburb>Cairns</Suburb>
+    <Lat>-16.925397</Lat>
+    <Lon>145.775178</Lon>
+  </store>
+  <store>
+    <Name>Adelaide Centre</Name>
+    <Suburb>Adelaide</Suburb>
+    <Lat>-34.92577</Lat>
+    <Lon>138.599732</Lon>
+  </store>
+</stores>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Map</title>
+<meta name="viewport" content="initial-scale=1.0">
+<meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+<meta charset="utf-8">
+<style>
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#map {
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#button {
+	height: 50px;
+	width: 80px;
+	background-color: dodgerblue;
+}
+	
+label {
+	margin-left: 10%;
+}
+	
+</style>
+</head>
+<body>
+<label>Store Postcode: </label>
+<input name="postcode" id="codepost" type="text">
+<button id="button">Search</button>
+<div id="map"></div>
+<script>	
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -26.715, lng: 153.064},
+    zoom: 8
+  });
+
+}
+    </script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script>
+$(document).ready(function(){
+    $("#button").click(function(){
+		try {
+			marker.setMap(null);
+		} catch(err) {
+			//do nothing
+			console.log("not number");
+		}
+		var storecode = document.getElementById("codepost").value;
+		console.log(storecode);
+        $.ajax( {
+			url: "http://localhost:8080/getlocation?postcode=" + storecode,
+			method: "get",
+			dataType: "json"
+		})
+         .done(function(msg) {
+			var result = msg.Name;
+			var Lat = msg.Lat;
+			var Lon = msg.Lon;
+			console.log(result);
+			console.log(Lat);
+			console.log(Lon);
+			
+				marker = new google.maps.Marker({
+    				map: map,
+    				position: {lat: parseFloat(Lat), lng: parseFloat(Lon)},	
+					title: result	
+  				});
+			map.setCenter(marker.getPosition());
+		})
+		.fail(function(error){
+			alert("Error input. Default store will be selected. ");
+			marker = new google.maps.Marker({
+    				map: map,
+					position: {lat: parseFloat(Lat), lng: parseFloat(Lon)},
+					title: result	
+  				});
+		});
+		
+    });
+});
+</script> 
+<script src="https://maps.googleapis.com/maps/api/js?
+key=AIzaSyCO3hE4bE7WV7mGuXL4kn9caoWI44tD8Ic&callback=initMap" async defer></script>
+</body>
+</html>
